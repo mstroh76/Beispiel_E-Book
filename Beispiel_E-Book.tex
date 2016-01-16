@@ -1,0 +1,40 @@
+\documentclass{report}
+
+
+%German setting
+\usepackage{ngerman}
+\usepackage[latin1]{inputenc}
+\usepackage[official]{eurosym}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}  % Include grafics
+\usepackage{grffile}   % support special grafic names
+\usepackage{listings}  % Source code
+\lstset{
+    breaklines=true,
+}
+
+%\usepackage{titleref}  %- don't work error: Command titeref alread defined!
+\usepackage{html}
+
+\pagestyle{plain}
+
+
+
+
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3} 
+
+\input{version}
+
+\title{Beispiel E-Book}
+\author{Martin Strohmayer\\m.stroh@ymail.com\\ \url{http://evil.hn.vc}}
+\date{Version \versionnumber \\\today \\E-Book Edition}
+
+\begin{document}
+
+\input{Inhalt}
+
+\end{document}
+%EOF

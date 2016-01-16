@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+       <dc:identifier opf:scheme="uuid" id="uuid_id">91a21474-9286-4b4d-979c-dc49ab6a3603</dc:identifier>
+        <dc:title>Beispiel E-Book</dc:title>
+        <dc:creator opf:file-as="Martin Strohmayer" opf:role="aut">Martin Strohmayer</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.26.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;div&gt;Dieses Buch dient zur Veranschaulichung und als Vorlage für E-Books die mit Latex erzeugt wurden.&lt;/div&gt;&lt;div&gt;Dieses Buch steht unter der CC0 1.0 Lizenz und kann bedingungslos als Vorlage für E-Books von jedermann verwendet werden.o/1.0/}.\\&lt;/div&gt;&lt;div&gt;Die Quell-Dateien des E-Books stehen auf GitHub zur Verfügung, https://github.com/mstroh76/EBook.&lt;/div&gt;&lt;/div&gt;</dc:description>     
+		<dc:language>deu</dc:language>
+        <dc:subject>E-Book</dc:subject>
+        <dc:subject>Latex</dc:subject>
+        <dc:subject>Beispiel</dc:subject>
+    </metadata>
+    <guide>
+        <reference href="Beispiel_E-Book.jpg" title="Umschlagbild" type="cover"/>
+    </guide>
+</package>

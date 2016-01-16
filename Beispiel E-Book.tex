@@ -1,0 +1,40 @@
+\documentclass[10pt,pdftex,a4paper,twoside,openright]{book}
+\usepackage[hmarginratio=3:2]{geometry}
+
+%German setting
+\usepackage{ngerman}
+\usepackage[latin1]{inputenc}
+\usepackage[official]{eurosym}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}  % Include grafics
+\usepackage{grffile}   % support special grafic names
+\usepackage{listings}  % Source code
+
+
+
+
+\usepackage{titleref}  % Referenz with name 
+\usepackage{pdf}
+
+\pagestyle{fancy}
+% Links nur Kapitel (Groﬂkeinschreibung statt alles Groﬂ)
+\fancyhead[L]{\nouppercase{\leftmark}}
+% Rechts nichts
+\fancyhead[R]{}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3} 
+
+\input{version}
+
+\title{Beispiel E-Book}
+\author{Martin Strohmayer\\m.stroh@ymail.com\\ \url{http://evil.hn.vc}}
+\date{Version \versionnumber \\\today \\PDF Edition}
+
+\begin{document}
+
+\input{Inhalt}
+
+\end{document}
+%EOF
